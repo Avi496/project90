@@ -1,0 +1,25 @@
+body {
+    background-color: lawngreen;
+}
+#number1, #number2 {
+    width: 70%;
+}
+#player1_name {
+	margin-left: 0px;
+    width: 70%;
+}
+#player2_name {
+	margin-left: 0px;
+    width: 70%;
+}
+#think {
+    background-color: lawngreen;
+}
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid crimson;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
