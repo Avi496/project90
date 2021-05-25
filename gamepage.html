@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<link rel="stylesheet" src="style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body id="think">
         <h4 id="player1_name"></h4><span id="player1_score"></span>
@@ -14,14 +14,12 @@
         <center>
         <div class="container" id="cool">
         <h1>The Math Quiz</h1>
+         <h3 id="question_turn"></h3>
+         <h3 id="answer_turn"></h3>
          <br>
-         <div id="output">
-             <h5></h5>
-             <br>
-             <span><h5>Answer : </h5><input type="number" id="answer" class="form-control" placeholder="Answer"></span>
-             <br>
-             <button class="btn btn-info" onclick="check();">Check</button>
-            </div>
+         <div id="output" class="col-lg-4 col-md-6 col-sm-6 col-xs-11">
+        
+        </div>
             <br>
             <br>
             <br>
@@ -34,5 +32,6 @@
          <button class="btn btn-warning" onclick="send();">Send</button>
         </div>
     </center>
+    <script src="gamepage.js"></script>
     </body>
 </html>
